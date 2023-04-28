@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+    margin: o; padding: 0;
+    box-sizing: border-box;
+     font-family: 'Grenze Gotisch' cursive;  
+     
+    }
+    html{
+        font-size: 62.5%;
+    }
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #227093;
+    display: grid;
+    place-items: center;
+} */
+
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    background: cornflowerblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center_div{
+   width: 60vw;
+   height: 60vh;
+   background: crimson;
+   display: grid;
+   place-items: center;
+}
+
+.loader{
+    width: 15rem;
+    height: 15rem;
+    background: transparent;
+    border-radius: 50%;
+    border: 1.5rem solid #fff;
+    border-top: 1.5rem solid #fffe2f;
+    animation: loaders 2s linear infinite;
+}
+
+@keyframes loaders {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    /* 100%{
+        transform: scaleX(360deg);
+    } */
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+

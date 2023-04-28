@@ -1,0 +1,55 @@
+*{
+    margin: o; padding: 0;
+    box-sizing: border-box;
+}
+
+/* Trick 1 */
+
+/* .parent_div{
+     width: 100vw;
+     height: 100vh;
+     background: cornflowerblue;
+     position: relative;
+}
+.child_div{
+    width: 60vw;
+    height: 60vh;
+    background: crimson;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+
+/* trick 2 */
+/* .parent_div{
+    width: 100vw;
+    height: 100vh;
+    background: cornflowerblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_div{
+   width: 60vw;
+   height: 60vh;
+   background: crimson;
+}  */
+
+/* trick 3 */
+/* 
+.parent_div{
+    width: 100vw;
+    height: 100vh;
+    background: cornflowerblue;
+    display: grid;
+    place-items: center;
+}
+.child_div{
+   width: 60vw;
+   height: 60vh;
+   background: crimson;
+}   */
+

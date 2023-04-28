@@ -1,0 +1,39 @@
+*{
+    margin: o; padding: 0;
+    box-sizing: border-box;
+     font-family: 'Grenze Gotisch' cursive;  
+     
+    }
+
+.child_div
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: green;
+    color: #fff;
+}
+
+.child_div * {
+    padding-top: 5px;
+}
+
+
+
+li:nth-child(2n){
+    color: lightskyblue;
+}
+
+li:nth-child(2n+1){
+    color: mediumpurple;
+}
+
+li:first-child{
+    color: indigo;
+}
+li:last-child{
+    color: khaki;
+}
